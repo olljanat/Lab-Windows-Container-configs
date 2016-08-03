@@ -1,4 +1,4 @@
-== Creating AppFabric package for Windows Containers ===
+## Creating AppFabric package for Windows Containers
 **NOTE!** Installating AppFabric to Windows Server 2016 is not supported by Microsoft but you can do it based on this guide.
 
 * Download "WindowsServerAppFabricSetup_x64.exe" from https://www.microsoft.com/en-us/download/details.aspx?id=27115
