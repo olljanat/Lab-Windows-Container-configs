@@ -1,6 +1,5 @@
 # Description:
-This dockerfile creates template with .NET 3.5.
-
+This dockerfile creates template with IIS.
 # Usage:
 **Docker Build**
 
