@@ -1,4 +1,4 @@
-FROM			    windowsservercore:latest
+FROM			    microsoft/windowsservercore:10.0.14300.1030
 MAINTAINER		    Olli Janatuinen
 
 # Install .NET 3.5
