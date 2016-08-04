@@ -5,7 +5,5 @@ This dockerfile creates template with AppFabric and IIS rewrite.
 **Docker Build**
 
 ```
-docker build -t iis:latest .
+docker build -t iis-with-extensions:latest .
 ```
-
-

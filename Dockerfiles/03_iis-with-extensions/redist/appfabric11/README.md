@@ -9,12 +9,14 @@
 * Copy content of "packages" -folder to this folder (and remove temp files).
 * Do following modifications to "appfabric-1.1-for-windows-server-64.msi" -using ORCA:
   * Remove ```Installed OR ((UILevel="2") AND (NOT INSTALLDIR=""))``` from LaunchCondition.
-  * Remove following Actions from "InstallExecuteSequence":
-    * All "Usergroup_AS..." (needed because net localgroup command does not work inside of containers).
   * Remove following from CustomAction
+    * All "Usergroup_AS..." (needed because net localgroup command does not work inside of containers).
     * RegisterPerfmonManifest
     * RollbackRegisterPerfmonManifest
     * ConfigurePerfmonManifestRegister
-    * UnregisterPerfmonManifest    
-    
-
+    * UnregisterPerfmonManifest
+	* ConfigurePerfmonManifestUnregister
+	* SQMTask_Localize_i
+	* SQMTask_i
+	* SQMTask_r
+	* SQMTask_u
